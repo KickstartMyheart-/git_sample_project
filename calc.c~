@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+int main(void){
+  FILE *fp;
+  char *fname = "grade.csv";
+  char con[20][5];
+  int i,j;
+  int poin[15][5];
+  int ave;
+
+  fp=fopen(fname,"r");
+  if(fp==NULL) printf("開けないです\n");
+  
+  for(i=0;i<11;i++){
+    for(j=0;j<5;j++){
+      if(i==0){
+
+
+
+
+
+
+
+
+  fclose(fp);
+
+  return 0;
+}
